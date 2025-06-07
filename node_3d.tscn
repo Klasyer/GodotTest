@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfo5nta1tk5rb"]
+
+[ext_resource type="Script" uid="uid://c2q5qv8wqfw17" path="res://Node3d.cs" id="1_a202f"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.09579, 0)
+script = ExtResource("1_a202f")
+
+[node name="Container" type="Container" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
